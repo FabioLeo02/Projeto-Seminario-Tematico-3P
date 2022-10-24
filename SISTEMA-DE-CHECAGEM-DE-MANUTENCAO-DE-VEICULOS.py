@@ -6,7 +6,7 @@ tela = Tk()
 tela.title('Login')
 tela.geometry('215x150')
 tela['bg'] = 'lightgrey'
-#tela.iconbitmap('C:/Users/Leandro/Documents/python/trabalhos/imagens/veolia.ico')
+#tela.iconbitmap('C:/imagens/veolia.ico')
 tela.resizable(width=FALSE,height=FALSE)
 
 logins = ['Georges', '1234','Keverny','5678','Luciano','9999'] #VETOR QUE SALVA OS USUARIOS E SENHAS
@@ -35,7 +35,7 @@ def login(): #FUNÇÃO QUE RECEBE OS DADOS PARA FAZER LOGIN
    tela2.title('Sistema de Checagem de Manutenção de Veiculos - Tela Inicial')
    tela2.geometry('669x360')
    tela2['bg'] = 'lightgrey'
-   #tela2.iconbitmap('C:/Users/Leandro/Documents/python/trabalhos/imagens/veolia.ico')
+   #tela2.iconbitmap('C:/imagens/veolia.ico')
    tela2.resizable(width=FALSE,height=FALSE)
    def testagem(): #FUNÇÃO DO BOTÃO "NOVA TESTAGEM"
     def salvar_dados_relatorio():  #FUNÇÃO DO BOTÃO "SALVAR RELATORIO"
@@ -52,7 +52,7 @@ def login(): #FUNÇÃO QUE RECEBE OS DADOS PARA FAZER LOGIN
     tela3.title('Veolia - Formulario de Checagem')
     tela3['bg'] = 'lightgrey'
     tela3.geometry('404x300')
-    #tela3.iconbitmap('C:/Users/Leandro/Documents/python/trabalhos/imagens/veolia.ico')
+    #tela3.iconbitmap('C:/imagens/veolia.ico')
     tela3.resizable(width=FALSE,height=FALSE)
 
     display_usuario = Label(tela3,text='Nome:  GEORGES', bg='#FE570E', width=28, font='bold 9',justify=LEFT)
@@ -141,7 +141,7 @@ def login(): #FUNÇÃO QUE RECEBE OS DADOS PARA FAZER LOGIN
     tela3.title('Veolia - Formulario de Checagem')
     tela3['bg'] = 'lightgrey'
     tela3.geometry('404x300')
-    #tela3.iconbitmap('C:/Users/Leandro/Documents/python/trabalhos/imagens/veolia.ico')
+    #tela3.iconbitmap('C:/imagens/veolia.ico')
     tela.resizable(width=FALSE,height=FALSE)
 
     display_usuario = Label(tela3,text='Nome:   KEVERNY', bg='#FE570E', width=28, font='bold 9',justify=LEFT)
@@ -211,7 +211,7 @@ def login(): #FUNÇÃO QUE RECEBE OS DADOS PARA FAZER LOGIN
    tela2.title('Sistema de Checagem de Manutenção de Veiculos - Tela Inicial')
    tela2.geometry('669x360')
    tela2['bg'] = 'lightgrey'
-   #tela2.iconbitmap('C:/Users/Leandro/Documents/python/trabalhos/imagens/veolia.ico')
+   #tela2.iconbitmap('C:/imagens/veolia.ico')
    tela2.resizable(width=FALSE,height=FALSE)
 
    def testagem():
@@ -229,7 +229,7 @@ def login(): #FUNÇÃO QUE RECEBE OS DADOS PARA FAZER LOGIN
     tela3.title('Veolia - Formulario de Checagem')
     tela3['bg'] = 'lightgrey'
     tela3.geometry('404x300')
-    #tela3.iconbitmap('C:/Users/Leandro/Documents/python/trabalhos/imagens/veolia.ico')
+    #tela3.iconbitmap('C:/imagens/veolia.ico')
     tela3.resizable(width=FALSE,height=FALSE)
 
     display_usuario = Label(tela3,text='Nome:   LUCIANO', bg='#FE570E', width=28, font='bold 9',justify=LEFT)
